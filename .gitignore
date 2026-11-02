@@ -1,0 +1,55 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production build
+dist
+build
+.vercel
+
+# Original large demonstration video (815 MB - preserved locally)
+python project vedio.mp4
+test_clip.mp4
+
+# Python virtual environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.env.local
+
+# Local generator & scratch scripts
+generate_pivot_analysis.py
+export_ppt.ps1
+
+# Coursework raw source files in root (preserved locally on disk, web assets live in public/assets)
+/Circular_EWaste_Final_Review_Presentation.pptx
+/Circular_E_Waste_Recovery_Project_Writeup.pdf
+/class-quiz.jpeg
+/impairment.jpeg
+/padlet.png
+/python-group-discussion-report on braille.pdf
+/python-tutorial group discussion.jpeg
+/Storyboard.png
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+
